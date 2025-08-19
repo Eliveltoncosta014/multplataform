@@ -78,7 +78,12 @@ margin: 20px;
 /*CORTAR imagem*/
 overflow: hidden; 
 }
-
+/*Content HOME*/
+.content-box {
+margin: 20px;
+border: 1px solid blue;
+max-width:300px;
+}
 
 
 
