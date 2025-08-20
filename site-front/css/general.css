@@ -14,6 +14,16 @@ body {
   max-width: 1064px;
   margin: 0 auto;
 
+
+
+
+
+}
+
+.titleGeneral h1 {
+
+  padding-left: 25px;
+  color: orangered;
 }
 
 /*criando o header*/
@@ -103,7 +113,7 @@ head h2 {
   margin: 10px 35px 20px 15px;
   /*sombra*/
   box-shadow: 2px 3px 3px rgb(100, 100, 100);
-  border-radius: 20px ;
+  border-radius: 20px;
 }
 
 
@@ -124,4 +134,18 @@ head h2 {
   color: rgb(164, 5, 238);
   text-decoration: none;
   /*Negrito*/
+}
+
+.promocao {
+  /*flexbox*/
+  display: flex;
+  justify-content: center;
+}
+
+.promocao img {
+  max-width: 800px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
 }
