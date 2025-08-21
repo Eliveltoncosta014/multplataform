@@ -116,7 +116,6 @@ head h2 {
   border-radius: 20px;
 }
 
-
 .box img {
   border-bottom: 1px solid color black
 }
@@ -144,8 +143,57 @@ head h2 {
 
 .promocao img {
   max-width: 800px;
+  padding-left: 10px;
   height: 180px;
   border: 1px solid black;
   border-radius: 10px;
   margin: 20px;
+}
+
+/*Novidades*/
+.novidades {
+  background-color:rgb(212, 211, 210);
+  margin-top: 20px;
+  /* Flexbox */
+  display: flex;
+}
+
+.novidades span {
+  font-size: 150px;
+}
+
+.novidades article {
+  
+  /* Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+.novidades form{
+ width: 100px;
+
+
+}
+
+
+
+.novidades form input {
+  max-width: 300px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(122, 117, 109);
+
+}
+.novidades form button {
+
+border: 1px solid blue;
+background: transparent;
+cursor: pointer;
+border-radius: 10px;
+padding: 10px;
+color: blue;
+font-weight:bold;
 }
