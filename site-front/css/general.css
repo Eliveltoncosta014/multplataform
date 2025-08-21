@@ -152,7 +152,7 @@ head h2 {
 
 /*Novidades*/
 .novidades {
-  background-color:rgb(212, 211, 210);
+  background-color: rgb(212, 211, 210);
   margin-top: 20px;
   /* Flexbox */
   display: flex;
@@ -163,15 +163,16 @@ head h2 {
 }
 
 .novidades article {
-  
+
   /* Flexbox */
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
-.novidades form{
- width: 100px;
+
+.novidades form {
+  width: 100%;
 
 
 }
@@ -187,13 +188,33 @@ head h2 {
   border: 1px solid rgb(122, 117, 109);
 
 }
+
 .novidades form button {
 
-border: 1px solid blue;
-background: transparent;
-cursor: pointer;
-border-radius: 10px;
-padding: 10px;
-color: blue;
-font-weight:bold;
+  border: 1px solid blue;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  color: blue;
+  font-weight: bold;
+}
+
+footer {
+  background: black;
+  height: 40px;
+  /* Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+color:#fff
+}
+/* Pagina sobre */
+.spaceSobre {
+margin: 20px 0 20px 0;
+
+
+
 }
