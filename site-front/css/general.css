@@ -250,7 +250,6 @@ footer p {
 
 form {
   margin: 20px;
-  border: 1px solid red;
 
 }
 
@@ -258,16 +257,14 @@ form {
   margin-bottom: 20px;
 
 }
-.form-group select{
-height: 30px;
-width: 100%;
-max-width:300px;
-border-radius:8px;
+
+.form-group select {
+  height: 30px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
 
 }
-
-
-
 
 .form-group label {
   font-weight: bold;
@@ -286,13 +283,14 @@ border-radius:8px;
   padding-left: 5px;
   border-radius: 7px;
 }
+
 .form-group-sexo label {
   display: inline-block;
-  margin-top:10px;
+  margin-top: 10px;
 
 }
 
-legend{
+legend {
   padding: 10px;
   display: inline-block;
   font-size: 18px;
@@ -307,6 +305,7 @@ legend{
 
 
 }
+
 .form-control-padrao {
   width: 100%;
   max-width: 50px;
@@ -315,4 +314,36 @@ legend{
   outline: none;
   padding-left: 5px;
   border-radius: 7px;
+}
+
+.comentario {
+  width: 100%;
+  max-width: 300px;
+  height: 150px;
+  border: 2px solid #bcbaba;
+  outline: none;
+  padding-left: 5px;
+  border-radius: 7px;
+  display: block;
+  margin-top: 10px;
+  padding-top: 5px;
+
+}
+
+.title {
+  color: #4681d6;
+  font-weight: bold;
+
+}
+
+.btn-enviar {
+  background: #4681d6;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+
+
 }
