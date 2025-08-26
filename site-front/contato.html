@@ -38,8 +38,8 @@
 
         <h2 class="text-contato">Quer <strong>entrar em contato?</strong></h2>
         <form>
-            <article action="form-group">
-                <label for="none">Nome</label>
+            <article class="form-group">
+                <label for="nome">Nome</label>
                 <input type="text" id="nome" />
             </article>
 
@@ -50,7 +50,8 @@
 
             <article class="form-group-sexo">
                 <br>
-                <strong>Sexo </strong>
+                <strong>Sexo</strong>
+                <br>
                 <label for="masc"> Masculino </label>
                 <input type="radio" name="Sexo" id="masc" />
                 <br>
@@ -58,26 +59,43 @@
                 <input type="radio" name="Sexo" id="fem" />
                 <br>
                 <label for="outros">Outros</label>
-                <input type="radio"name="sexo" id="outros">
-                
+                <input type="radio" name="sexo" id="outros">
 
             </article>
 
-
             <article class="form-group">
-             <select>
-                <option>Selecione Estado</option>
-                <option value="sp">SP</option>
-                <option value="rj">RJ</option>
-                <option value="sc">SC</option>
-                <option value="pr">PR</option>
-                
-             </select>   
-        
-        </article>
+                <select>
+                    <option>Selecione Estado</option>
+                    <option value="sp">SP</option>
+                    <option value="rj">RJ</option>
+                    <option value="sc">SC</option>
+                    <option value="pr">PR</option>
+                </select>
+            </article>
+
+            <article>
+                <fieldset>
+                    <legend>Rceber email</legend>
+                    <section class="form-group-info">
+                        <label for="sim">Sim</label>
+                        <input type="checkbox" id=sim />
+                    </section>
+                </fieldset>
+            </article>
+
+
+            <article class="form-group-info">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" min="0" max="120" class="form-control-padrao"/>
+            </article>
+
 
         </form>
-      
+        <article class="form-group-info">
+            <label for="nivel">Nivel de satisfação </label>
+            <input type="range" id="nivel" min="0" max="10"/>
+        </article>
+
 
 
 
