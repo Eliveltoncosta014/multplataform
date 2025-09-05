@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <main>
+        <h1>CALCULADORA</h1>
+        <form>
+            <article>
+                <label for="numero1">NUMERO 1</label>
+                <input type="number" id="numero1">
+            </article>
+            <article>
+                <label for="numero2">NUMERO 2</label>
+                <input type="number" id="numero2">
+            </article>
+            <article>
+                <button onclick="soma(event)">SOMAR</button>
+                <br><br>
+                <button onclick="sub(event)">SUBTRAIR</button>
+                <br><br>
+                <button onclick="mult(event)">MULTIPLICAR</button>
+                <br><br>
+                <button onclick="div(event)">DIVIDIR</button>
+            </article>
+            <br>
+            <div id="resultado"></div>
+        </form>
+    </main>
+    
+    <script src="calculadora.js"></script>
+</body>
+</html>
