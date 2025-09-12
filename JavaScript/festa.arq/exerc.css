@@ -39,13 +39,13 @@ body {
 .form-control label {
     /* Espaçamento entre os elementos */
     margin-top: 15px;
-    color: #fff;
+    color: #f5f3f3;
     display: block;
 }
 
 #verifica-nota {
     /* Cor do fundo */
-    background: #191970;
+    background: #292938;
     /* Borda do Botão */
     border: 1px solid white;
     /*Cor de texto */

@@ -1,0 +1,13 @@
+function diasParaNiver(){
+    const hoje = new Date();
+
+    const diaSemana = hoje.getDay();// 0=Dom, 1=seg, ...,4=quin
+    let diasFaltando = 4-diaSemana;
+
+    if(diasFaltando <0 ) {
+        diasFaltando += 7;
+    }
+    document.getElementById ("dias"). textContent= diasFaltando;
+}
+
+diasParaNiver();
