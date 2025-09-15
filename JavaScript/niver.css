@@ -1,82 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
+body{
+    background-color: rgb(0, 0, 0);
+}    
+
+
+.container{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url(img.festa/fest.01.jpg);
 }
 
-body {
-    background: #5d48d6;
+
+img{
+    border:  1px solid rgb(10, 10, );
+    border-radius: 7px;
+    margin: 10px;
 }
 
-.container {
-    /*Largura*/
-    width: 100%;
-    max-width:450px;
-    /*Borda*/
-    border: 2px solid white;
-    /* Borda arrendondada */
-    border-radius: 5px;
-    /* Centralizar minha tela*/
-    margin: 40px auto;
+
+
+.container h1{
+    color: rgb(0, 0, 0);
+}
+    .containerdois{
+            background-color: rgb(214, 94, 14);
+            border: 1px solid rgb(202, 72, 11);
+            border-radius: 5px;
+    }
+
+.container span{
+    color: rgb(0,0,0);
 }
 
-.container form {
-    /*Flexbox*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.form-control input {
-    /*Espaçamento entre os elementos*/
-    margin-top: 15px;
-    margin-bottom: 15px;
-    /*Efeito colateral do navegador*/
-    outline: none;
-    /*Espaçamento dentro do elemento*/
-    padding: 5px;
-}
 
-.form-control label {
-    /* Espaçamento entre os elementos */
-    margin-top: 15px;
-    color: #fff;
-    display: block;
-}
 
-#verifica-nota {
-    /* Cor do fundo */
-    background: #191970;
-    /* Borda do Botão */
-    border: 1px solid white;
-    /*Cor de texto */
-    color: #fff;
-    /*Espaçamento dentro do elemento */
-    padding: 5px;
-    /* Espaçamento fora do elemento */
-    margin-bottom: 10px;
-    /* Cursor mãozinha */
-    cursor: pointer;
-    transition: all 0.9s;
-}
-
-#verifica-nota:hover {
-    background-color: rgb(232, 229, 229);
-    color: #242425;
-}
-
-#result {
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-#message {
-    display: none;
-}
-
-#message span {
-    color: red;
-    padding-bottom: 10px;
-    display: block;
-
-}
-    
