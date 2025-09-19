@@ -1,0 +1,22 @@
+body {
+    background: rgb(102, 72, 186);
+
+}   
+.container {
+    border: 1PX solid blue;
+    max-width: 500PX;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    background: pink;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+h1 {
+    background: orange
+    color #fff;
+}
