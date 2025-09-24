@@ -14,7 +14,8 @@ button{
     background: pink;
     padding: 5px;
     font-size: 25px;
-    border-radius: 10px;
+    border-radius: 10px
+    ;
 }
 h1 {
     background: orange
