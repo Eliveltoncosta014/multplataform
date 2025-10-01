@@ -1,18 +1,20 @@
-import { StyleSheet, Text, View } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
+import ListaCursos from "../components/ListaCursos";
+
 
 export default function Prime() {
   return (
     <>
       <View style={estilos.topo}>
         <Text style={estilos.tituloHeader}>Cursos SENAI</Text>
-
       </View>
 
-      <View>
-        <Text> - HTML Completo </Text>
-        <Text> - Informática Básica </Text>
-        <Text> -                   </Text>
+      <View style={estilos.cursosContent}>
+        <Text style={estilos.textTitle}> - HTML Completo</Text>
+        <Text> - Informática Básica</Text>
       </View>
+      <ListaCursos />
+
     </>
   )
 }
@@ -30,15 +32,10 @@ const estilos = StyleSheet.create({
     paddingTop: 60,
     fontSize: 20
   },
-  CursosContente{
-    width:"100%",
-    color: "whire",
-    textAlign: "center",
-
-    
-
-
-
+  cursosContent: {
+    paddingTop: 25,
+  },
+  textTitle: {
+     color: "blue",
   }
-
 });

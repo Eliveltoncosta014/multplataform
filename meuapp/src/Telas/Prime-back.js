@@ -9,6 +9,9 @@ import { View, StyleSheet, Text } from "react- native";
   <View>
     <Text>Popeto</Text>
   </View>
+  <ListaCurso>
+    
+  </ListaCurso>
 
 </>
 
