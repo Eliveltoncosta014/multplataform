@@ -1,4 +1,5 @@
-import { View, StyleSheet, Text } from "react-native";
+import { View,  Text } from "react-native";
+import ListaAlunos from "../components/ListaAlunos";
 import ListaCursos from "../components/ListaCursos";
 
 
@@ -14,6 +15,7 @@ export default function Prime() {
         <Text> - Informática Básica</Text>
       </View>
       <ListaCursos />
+      <ListaAlunos/>
 
     </>
   )
