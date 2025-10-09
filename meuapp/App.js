@@ -1,12 +1,15 @@
 
-import { StyleSheet, Text, View, ScrollView, } from 'react-native';
-import Prime from './src/Telas/Prime';
+import { Text, View, ScrollView, } from 'react-native';
+
 export default function App() {
   return (
     <>
       <View>
         <ScrollView>
-          <Prime />
+          <text>site</text>
+          <text>site</text>
+          <text>site</text>
+
         </ScrollView>
       </View>
 
