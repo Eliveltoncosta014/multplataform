@@ -7,7 +7,7 @@ export default function Prime() {
     <>
       <View style={estilos.topo}>
         <Text style={estilos.tituloHeader}>Cursos SENAI teste</Text>
-        <Text style={estilos.tituloHeader}> Lista De Amigos </Text>
+        <Text style={estilos.tituloHeader}>Lista De Amigos</Text>
       </View>
       <ListaPessoas />
       <View>
