@@ -1,19 +1,17 @@
 
 import { Text, View, ScrollView, } from 'react-native';
-
+import Header from './src/components/Header'
+import Card from './src/components/Card';
 export default function App() {
   return (
     <>
-      <View>
+        
         <ScrollView>
-          <text>site</text>
-          <text>site</text>
-          <text>site</text>
-
+        <Header/>
+        <Card />
         </ScrollView>
-      </View>
-
-
+       
+    
     </>
 
   );
