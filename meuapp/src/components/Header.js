@@ -1,31 +1,29 @@
-import { StyleSheet, Text, View } from "react-native";
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function Header() {
-    return (
-        <View style={estilos.topo}>
-            <Text style={estilos.tituloHeader}> Fut Popeto </Text>
-        </View>
-
-    )
+  return (
+    <View style={estilos.topo}>
+        <Text style={estilos.tituloHeader}>Fut Popeto</Text>
+    </View>
+  )
 }
-const estilos = StyleSheet.create({
 
-topo: {
+const estilos = StyleSheet.create({
+    topo: {
         width: "100%",
         height: 120,
-        backgroundColor: '#d7d7de',
-        borderBottomColor: '#9c9ca1ff',
-        borderBottomWidth: 3,
+        backgroundColor: "#d7d7de",
+        borderBottomColor: "#9c9ca1ff",
+        borderBottomWidth: 3
     },
     tituloHeader: {
-        widith: "100%",
-         textAlign: 'center',
-        height: 120,
-        color: '#ff7b00ff',
-        fontWeight: 'bold',
+        width: "100%",
+        textAlign: 'center',
+        color: "#ff7b00ff",
+        fontWeight: "bold",
         fontSize: 25,
-        paddingTop: 40,
-
-       
-    },
+        paddingTop: 40
+    }
 });
+
