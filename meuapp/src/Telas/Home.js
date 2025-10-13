@@ -10,12 +10,15 @@ export default function Home() {
         title="Sobre"
         content="Saiba mais sobre nossos serviços."
         TextButton="Ir para sobre*"
-
+        onPress={
+            ()=> navigation.navigate('Sobre')}
       />
       <Card
         title="Faq "
         content="Saiba mais sobre Faq."
         TextButton="Ir para Faq *"
+         onPress={
+            ()=> navigation.navigate('Faq')}
       />
 
     </View>
