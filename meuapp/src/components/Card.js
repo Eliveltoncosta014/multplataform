@@ -37,6 +37,7 @@ const estilos = StyleSheet.create({
     CardContent: {
         fontSize: 14,
         marginBottom: 10,
+        
 
     },
 });

@@ -1,15 +1,17 @@
 import React from 'react'
-import { View,Text,StyleSheet } from 'react-native'
+import { View,Text,StyleSheet,Image,} from 'react-native'
+
 export default function Faq() {
   return (
   
   <View style={estilos.container}>
+  
     <Text style={estilos.titulo}>FAQs (perguntas frequentes)</Text>
-        <Text style= {estilos.perguntas}>•Faq reclame aqui</Text>
-          <Text style={estilos.perguntas}> •Recuperar senha </Text>
-        <Text style= {estilos.perguntas}>• Recuperar emai-l</Text>
-        <Text style={estilos.perguntas}>•               </Text>
-
+        <Text style= {estilos.perguntas}> • Faq reclame aqui</Text>
+          <Text style={estilos.perguntas}> • Recuperar senha </Text>
+        <Text style= {estilos.perguntas}> • Recuperar emai-l</Text>
+        <Text style={estilos.perguntas}> • Telefone   </Text>
+        <Text style={estilos.perguntas}></Text>
 
 
 
@@ -38,10 +40,7 @@ const estilos = StyleSheet.create({
     perguntas:{
          paddingTop:30,
          fontSize: 25,
-
-      
-
-
+    
 
 
 
