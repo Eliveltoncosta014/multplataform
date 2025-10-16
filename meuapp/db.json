@@ -1,0 +1,26 @@
+{
+    "contatos": [
+        {
+            "idi": "1",
+            "nome": "João Silva",
+            "telefone": "7878787884"
+        },
+        {
+            "idi": "2",
+            "nome": "Dom costa ",
+            "telefone": "42589755"
+        }
+    ],
+    "faq": [
+        {
+            "id": "1",
+            "pergunta": "O que é JSON server?",
+            "resposta": "JSON server é uma ferramenta que permite..."
+        },
+        {
+            "id": "33",
+            "pergunta": "Quem é o Dom?",
+            "resposta": "Dom, é um futuro emprendedor que saiu da sua situação de divergencia mesmo em hambiente desfavoravel"
+        }
+    ]
+}
