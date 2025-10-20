@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, Text, } from 'react-native'
+import { View, Text,StyleSheet,} from 'react-native'
 import axios from 'axios';
 export default function ListaContatos() {
 
@@ -40,27 +40,3 @@ export default function ListaContatos() {
      </View>
    )
 }
-
-const styles = StyleSheet.create({
-  card: {
-    backgroundColor: "#0f0d0dff",
-    padding: 15,
-    marginVertical: 8,
-    marginHorizontal: 16,
-    borderRadius: 8,
-    shadowColor: "#000",
-    shadowOpacity: 0.1,
-    shadowOffset: { width: 0, height: 2 },
-    shadowRadius: 3,
-    elevation: 2
-  },
-  nome: {
-    fontSize: 18,
-    fontWeight: "bold",
-    color: "#333"
-  },
-  telefone: {
-    fontSize: 14,
-    color: "#666"
-  }
-});

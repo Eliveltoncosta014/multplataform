@@ -8,6 +8,7 @@ export default function Card(props) {
         <View style={estilos.container}>
             <Text Style={estilos.Cardtitle}>{props.title}</Text>
             <Text Style={estilos.CardContent}>{props.content}</Text>
+              <View style={estilos.line}/>
             <Button
                 title={props.TextButton}
                 onPress={props.onPress}
@@ -19,9 +20,9 @@ export default function Card(props) {
 }
 
 const estilos = StyleSheet.create({
-    container: {
-        backgroundColor: "#877d7dff",
-        borderRadius: 1.41,
+    line: {
+        backgroundColor: "#b8ababff",
+        borderRadius: 1.58,
         shadowColor: 'blue',
         shadowOpacity: 0.2,
         elevation: 2,
@@ -30,7 +31,7 @@ const estilos = StyleSheet.create({
     },
     Cardtitle: {
         fontSize: 18,
-        fontWeight: 'bold',
+        fontWeight: 'black',
         marginBottom: 10,
 
     },
